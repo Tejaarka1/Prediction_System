@@ -1,3 +1,7 @@
+# Word documents / internal files
+TCS_FILE.docx
+*.docx
+
 # Dependencies
 node_modules/
 **/node_modules/

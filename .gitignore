@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dashboard/dist/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# AWS IoT Certificates (NEVER commit these)
+simulator/certificate.pem
+simulator/private.key
+simulator/AmazonRootCA1.pem
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vite cache
+dashboard/.vite/
+**/.vite/
+
+# Lock files (optional - keep package-lock.json but skip yarn/pnpm)
+yarn.lock
+pnpm-lock.yaml
